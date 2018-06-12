@@ -1,0 +1,142 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* HEADER */
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+nav {
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+.menu span {
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.overlay {
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* SERVICES */
+
+.container.services {
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+div.service {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.service.exams, .service.fittings {
+  margin-right: 6rem;
+}
+
+.image img {
+  width: 3.5rem;
+}
+
+/* DETAILS */
+
+.container.details {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+}
+
+div.title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.info.philosophy {
+  margin-right: 5%;
+}
+
+/* FOOTER */
+
+footer.container {
+  width: 100%;
+  background-color: azure;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .logo {
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+footer .logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
