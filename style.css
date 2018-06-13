@@ -140,3 +140,26 @@ footer .logo img {
   height: 1.5rem;
   margin-right: 1rem;
 }
+
+/* TABLET STYLES */
+
+@media only screen and (max-width: 1024px){
+  .container {
+    width: 100%;
+  }
+
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .overlay {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+  }
+}
