@@ -42,10 +42,18 @@ nav {
   height: 1.5rem;
 }
 
+.mobile.logo {
+  display: none;
+}
+
 .menu span {
   margin-right: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.mobile.menu {
+  display: none;
 }
 
 .banner {
@@ -141,6 +149,10 @@ footer .logo img {
   margin-right: 1rem;
 }
 
+footer .mobile.logo {
+  display: none;
+}
+
 /* TABLET STYLES */
 
 @media only screen and (max-width: 1024px){
@@ -150,7 +162,9 @@ footer .logo img {
 
   header {
     padding-top: 0;
-    height: 22rem;
+    height: 17rem;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .overlay {
@@ -162,4 +176,115 @@ footer .logo img {
   h1 {
     font-size: 1.33rem;
   }
+}
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width: 414px){
+    .container {
+      width: 100%;
+    }
+
+    header {
+      padding-top: 0;
+      height: 17rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    header .logo {
+      display: none;
+    }
+
+    header .mobile.logo {
+      display: block;
+    }
+
+    nav .menu {
+      display: none;
+    }
+
+    nav .mobile.menu {
+      display: inline-block;
+      margin-right: 2rem;
+    }
+
+    .banner.container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .overlay {
+      margin-top: 5rem;
+      padding: 1rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-right: 0;
+    }
+
+    h1 {
+      font-size: 1rem;
+    }
+
+    .container.services {
+      margin: 3.77rem auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .service.exams, .service.fittings {
+      margin-bottom: 1.54rem;
+      margin-right: 0;
+    }
+
+    .container.details {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .info {
+      width: 100%;
+    }
+
+    div.title {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+
+    .info.philosophy {
+      margin-bottom: 4rem;
+    }
+
+    .description p {
+      font-size: 0.77rem;
+    }
+
+    footer.container {
+      justify-content: center;
+    }
+
+    footer .logo {
+      display: none;
+    }
+
+    footer .mobile.logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    footer .logo img {
+      margin-right: 0;
+    }
+
+    footer .logo {
+      margin-left: 0;
+    }
 }
